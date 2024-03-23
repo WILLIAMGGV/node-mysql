@@ -76,6 +76,6 @@ app.delete("/delete/:id",(req,res)=>{
     );
 });
 
-app.listen(3001,()=>{
-    console.log("Corriendo en el puerto 3001")
+app.listen(3306,()=>{
+    console.log("Corriendo en el puerto 3306")
 })
